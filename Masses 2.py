@@ -6,11 +6,11 @@ from numpy.linalg import eig
 
 N = 5
 
-A = -2 * eye(N) + 1 * eye(N,N,1) + 1 * eye(N,N,-1)
+A = -2 * eye(N) + 1 * eye(N, N, 1) + 1 * eye(N, N, -1)
 
 # Finding eigensystem
 
-w,v = eig(A)
+w, v = eig(A)
 
 # Verify that system matches given website (it does)
 
